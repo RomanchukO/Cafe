@@ -1,0 +1,83 @@
+@media (min-width: 768px) {
+    .header {
+        .menu {
+            padding: 0;
+        }
+    }
+    .main {
+        .main-content {
+            background: url(../images/header-bg@tablet.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+                .bottom-content {
+                    .social-links {
+                        .link {
+                            height: 60px;
+                        }
+                        .link-img {
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                }
+        }
+        .about-us {
+            .text-wrapper {
+                max-width: 80%;
+            }
+        }
+        .team {
+            background: url(../images/team-bg@tablet.jpg);
+            .text-wrapper {
+                max-width: 80%;
+            }
+        }
+        .reserve {
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .slider-wrapper {
+            max-height: 730px;
+            min-height: 730px;
+            .btn {
+                display: block;
+            }
+        }
+        .dishes, .personal-events {
+            background: url(../images/dishes-bg@tablet.jpg);
+        }
+        .menu {
+            padding: 50px 30px;
+            .menu-container {
+                .content {
+                    .menu-list {
+                        .menu-item {
+                            margin-top: 40px;
+                            flex-basis: 45%;
+                            min-width: 365px;
+                        }
+                    }
+                }
+            }
+        }
+        .personal-events {
+            .events {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                .event {
+                    width: 49%;
+                    &:nth-child(even) {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+        .contacts {
+            padding: 50px;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@media (min-width: 768px) {
+  .header .menu {
+    padding: 0;
+  }
+
+  .main .main-content {
+    background: url(../images/header-bg@tablet.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .main .main-content .bottom-content .social-links .link {
+    height: 60px;
+  }
+  .main .main-content .bottom-content .social-links .link-img {
+    width: 60px;
+    height: 60px;
+  }
+  .main .about-us .text-wrapper {
+    max-width: 80%;
+  }
+  .main .team {
+    background: url(../images/team-bg@tablet.jpg);
+  }
+  .main .team .text-wrapper {
+    max-width: 80%;
+  }
+  .main .reserve {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main .slider-wrapper {
+    max-height: 730px;
+    min-height: 730px;
+  }
+  .main .slider-wrapper .btn {
+    display: block;
+  }
+  .main .dishes, .main .personal-events {
+    background: url(../images/dishes-bg@tablet.jpg);
+  }
+  .main .menu {
+    padding: 50px 30px;
+  }
+  .main .menu .menu-container .content .menu-list .menu-item {
+    margin-top: 40px;
+    flex-basis: 45%;
+    min-width: 365px;
+  }
+  .main .personal-events .events {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main .personal-events .events .event {
+    width: 49%;
+  }
+  .main .personal-events .events .event:nth-child(even) {
+    margin-top: 0;
+  }
+  .main .contacts {
+    padding: 50px;
+  }
+}
